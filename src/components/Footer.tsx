@@ -94,7 +94,8 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-10 border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-mono text-xs text-muted-foreground">
-            © {new Date().getFullYear()} ESP32 Hub — Open source & community driven
+            © {new Date().getFullYear()} ESP32 Hub — Made by{" "}
+            <a href="https://slogfy.in" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">slogfy.in</a>
           </p>
           <p className="font-mono text-[10px] text-muted-foreground/50">
             v1.0.0 // powered by caffeine & solder fumes
